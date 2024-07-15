@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 4px 3px rgb(196, 196, 196);
+  padding: 44px;
+  border-radius: 4px;
+  margin-top: 55px;
+}
+
+.timer {
+  font-size: 54px;
+  position: absolute;
+  top: 35%;
+  margin-left: 1%;
+  text-align: center;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-container h1 {
+  color: #cf4545;
+}
+.top-container h2 {
+  color: #9b2c2c;
+}
+.laps-container {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+}
+.start,
+.stop,
+.reset,
+.lap {
+  position: relative;
+  margin-top: 25%;
+
+  width: 100px;
+  height: 36px;
+  font-size: 21px;
+  border: none;
+  margin-inline: 11px;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+}
+
+.start {
+  background-color: rgb(5, 231, 5);
+}
+.stop {
+  background-color: rgb(250, 16, 16);
+}
+.reset {
+  background-color: rgb(250, 185, 8);
+}
+.lap {
+  background-color: rgb(135, 130, 114);
+}
+.second-container {
+  display: flex;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
