@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Getting Started with React",
+      "description": "Learn the basics of React.js and how to set up your first React application. This comprehensive tutorial covers essential concepts like components, state management using hooks, handling props, and integrating with third-party libraries. Dive into React's ecosystem with practical examples and tips for optimizing performance and scalability.",
+      "authorName": "Aditya Verma"
+    },
+    {
+      "id": "2",
+      "title": "Advanced CSS Techniques",
+      "description": "Explore advanced CSS techniques such as Flexbox, Grid, and CSS animations. This guide provides in-depth examples and strategies for mastering responsive design, creating complex layouts, and using modern CSS features effectively. Enhance your front-end development skills with comprehensive insights and best practices.",
+      "authorName": "Krishna Prajapat"
+    },
+    {
+      "id": "3",
+      "title": "Introduction to JavaScript ES6",
+      "description": "Discover new features introduced in ECMAScript 6 (ES6) and how they can improve your JavaScript code. This detailed introduction covers arrow functions, template literals, destructuring, classes, and modules. Explore practical examples and learn how ES6 enhances readability, maintainability, and performance in your projects.",
+      "authorName": "Nandini Mahajan"
+    },
+    {
+      "id": "4",
+      "title": "Responsive Web Design Principles",
+      "description": "Learn about responsive web design principles and best practices for creating responsive websites. This comprehensive tutorial covers fluid grids, flexible images, and media queries. Gain practical insights into mobile-first design strategies and accessibility considerations to deliver seamless user experiences across devices.",
+      "authorName": "Neha Patidar"
+    },
+    {
+      "id": "5",
+      "title": "Node.js and Express Tutorial",
+      "description": "Build a RESTful API with Node.js and Express, covering routing, middleware, and database integration. This hands-on tutorial includes authentication strategies, error handling, and deployment techniques. Discover how to build scalable backend applications with Node.js and Express, leveraging MongoDB for data storage.",
+      "authorName": "Rajik Khan"
+    }
+  ]
+}
